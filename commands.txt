@@ -1,0 +1,8 @@
+commands to run on each divergent server:
+
+git init
+git remote add origin https://github.com/tafniterp/tafnit.git
+git checkout -b server-A12
+git add .
+git commit -m "Initial sync for server-A15"
+git push -u origin server-A15 --force
